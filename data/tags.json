@@ -1,0 +1,165 @@
+{
+  "貓眼": {
+    "techniques": [
+      "cat-eye"
+    ]
+  },
+  "單色": {
+    "techniques": [
+      "solid"
+    ]
+  },
+  "法式美甲": {
+    "techniques": [
+      "french"
+    ]
+  },
+  "漸層美甲": {
+    "techniques": [
+      "gradient"
+    ]
+  },
+  "腮紅美甲": {
+    "techniques": [
+      "blush"
+    ]
+  },
+  "暈染": {
+    "techniques": [
+      "marble"
+    ]
+  },
+  "日系彩繪": {
+    "techniques": [
+      "hand-painted"
+    ],
+    "styles": [
+      "japanese"
+    ]
+  },
+  "金色系": {
+    "colors": [
+      "gold"
+    ]
+  },
+  "黑色系": {
+    "colors": [
+      "black"
+    ]
+  },
+  "白色系": {
+    "colors": [
+      "white"
+    ]
+  },
+  "藍色系": {
+    "colors": [
+      "blue"
+    ]
+  },
+  "粉色系": {
+    "colors": [
+      "pink"
+    ]
+  },
+  "裸色系": {
+    "colors": [
+      "nude"
+    ]
+  },
+  "灰色系": {
+    "colors": [
+      "gray"
+    ]
+  },
+  "綠色系": {
+    "colors": [
+      "green"
+    ]
+  },
+  "紫色系": {
+    "colors": [
+      "purple"
+    ]
+  },
+  "米色系": {
+    "colors": [
+      "beige"
+    ]
+  },
+  "黃色系": {
+    "colors": [
+      "yellow"
+    ]
+  },
+  "咖啡色系": {
+    "colors": [
+      "brown"
+    ]
+  },
+  "鏡面美甲": {
+    "effects": [
+      "mirror"
+    ]
+  },
+  "亮片凝膠": {
+    "effects": [
+      "glitter"
+    ]
+  },
+  "細閃": {
+    "effects": [
+      "shimmer"
+    ]
+  },
+  "閃亮": {
+    "decorations": [
+      "four-point-star-sticker"
+    ]
+  },
+  "亮片": {
+    "decorations": [
+      "sequin"
+    ]
+  },
+  "小鑽": {
+    "decorations": [
+      "rhinestone"
+    ]
+  },
+  "珍珠": {
+    "decorations": [
+      "pearl"
+    ]
+  },
+  "立體造型": {
+    "decorations": [
+      "3d-art"
+    ]
+  },
+  "蕾絲": {
+    "patterns": [
+      "lace"
+    ]
+  },
+  "豹紋": {
+    "patterns": [
+      "leopard"
+    ]
+  },
+  "海莉甲": {
+    "styles": [
+      "hailey"
+    ]
+  },
+  "AB款": {
+    "styles": [
+      "ab-design"
+    ]
+  },
+  "本月限定": {
+    "campaigns": [
+      "monthly"
+    ]
+  }
+}

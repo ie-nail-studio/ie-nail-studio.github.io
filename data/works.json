@@ -1,0 +1,1267 @@
+{
+  "categories": [
+    {
+      "id": "style-mono",
+      "label": "單色／貓眼",
+      "price": 900
+    },
+    {
+      "id": "style-simple",
+      "label": "微造型",
+      "price": 950
+    },
+    {
+      "id": "style-a",
+      "label": "款式 A",
+      "price": 1100
+    },
+    {
+      "id": "style-b",
+      "label": "款式 B",
+      "price": 1200
+    }
+  ],
+  "works": [
+    {
+      "id": "m_019",
+      "category": "style-mono",
+      "image": "img/style/style-mono/m_019.JPG",
+      "name": "香檳金貓眼凝膠美甲",
+      "alt": "香檳金方圓形美甲，貓眼光澤中帶有密集細閃",
+      "image_title": "宜蘭美甲,貓眼,貓眼美甲,2026美甲,美甲款式,聖誕節美甲",
+      "tags": [
+        "貓眼",
+        "金色系",
+        "細閃"
+      ],
+      "sort_order": 10,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "m_018",
+      "category": "style-mono",
+      "image": "img/style/style-mono/m_018.JPG",
+      "name": "跳色貓眼凝膠美甲",
+      "alt": "黑色與白色系跳色美甲，搭配貓眼光澤與細閃效果",
+      "image_title": "宜蘭美甲,貓眼,貓眼美甲,2026美甲,美甲款式",
+      "tags": [
+        "貓眼",
+        "黑色系",
+        "白色系",
+        "細閃"
+      ],
+      "sort_order": 20,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "m_017",
+      "category": "style-mono",
+      "image": "img/style/style-mono/m_017.JPG",
+      "name": "跳色貓眼凝膠美甲",
+      "alt": "淡藍與白色系短方圓甲交錯排列，呈現柔亮貓眼光澤",
+      "image_title": "宜蘭美甲,貓眼,貓眼美甲,2026美甲,美甲款式",
+      "tags": [
+        "貓眼",
+        "藍色系",
+        "白色系"
+      ],
+      "sort_order": 90,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "m_016",
+      "category": "style-mono",
+      "image": "img/style/style-mono/m_016.JPG",
+      "name": "柔美蜜桃貓眼凝膠美甲",
+      "alt": "裸粉蜜桃色短甲，搭配柔和的貓眼反光與透亮表面",
+      "image_title": "宜蘭美甲,貓眼,貓眼美甲,2026美甲,美甲款式",
+      "tags": [
+        "貓眼",
+        "粉色系",
+        "裸色系"
+      ],
+      "sort_order": 100,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "m_015",
+      "category": "style-mono",
+      "image": "img/style/style-mono/m_015.JPG",
+      "name": "跳色貓眼凝膠美甲",
+      "alt": "黑色與灰色短方圓甲跳色搭配，灰色甲面呈現貓眼光澤",
+      "image_title": "宜蘭美甲,貓眼,貓眼美甲,2026美甲,美甲款式",
+      "tags": [
+        "貓眼",
+        "黑色系",
+        "灰色系"
+      ],
+      "sort_order": 170,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "m_014",
+      "category": "style-mono",
+      "image": "img/style/style-mono/m_014.JPG",
+      "name": "粉色貓眼凝膠美甲",
+      "alt": "粉色系橢圓形美甲，甲面呈現集中而柔亮的貓眼光帶",
+      "image_title": "宜蘭美甲,貓眼,貓眼美甲,2026美甲,美甲款式",
+      "tags": [
+        "貓眼",
+        "粉色系"
+      ],
+      "sort_order": 180,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "m_013",
+      "category": "style-mono",
+      "image": "img/style/style-mono/m_013.JPG",
+      "name": "鼠尾草綠貓眼凝膠美甲",
+      "alt": "鼠尾草綠短圓甲，搭配帶銀光的貓眼效果",
+      "image_title": "宜蘭美甲,貓眼,貓眼美甲,2026美甲,美甲款式",
+      "tags": [
+        "貓眼",
+        "綠色系"
+      ],
+      "sort_order": 250,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "m_012",
+      "category": "style-mono",
+      "image": "img/style/style-mono/m_012.JPG",
+      "name": "跳色貓眼凝膠美甲",
+      "alt": "粉色與灰色橢圓形美甲交錯排列，呈現立體感貓眼光澤",
+      "image_title": "宜蘭美甲,貓眼,貓眼美甲,2026美甲,美甲款式",
+      "tags": [
+        "貓眼",
+        "粉色系",
+        "灰色系"
+      ],
+      "sort_order": 260,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "m_011",
+      "category": "style-mono",
+      "image": "img/style/style-mono/m_011.JPG",
+      "name": "微糖蜜桃晶石貓眼",
+      "alt": "蜜桃粉色短甲，貓眼光澤帶有金色反光與細閃",
+      "image_title": "宜蘭美甲,貓眼,貓眼美甲,2026美甲,美甲款式",
+      "tags": [
+        "貓眼",
+        "粉色系",
+        "細閃"
+      ],
+      "sort_order": 330,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "m_010",
+      "category": "style-mono",
+      "image": "img/style/style-mono/m_010.JPG",
+      "name": "草莓牛奶貓眼凝膠美甲",
+      "alt": "草莓牛奶粉色與白色系短甲，搭配細閃貓眼光澤",
+      "image_title": "宜蘭美甲,貓眼,貓眼美甲,2026美甲,美甲款式",
+      "tags": [
+        "貓眼",
+        "粉色系",
+        "白色系",
+        "細閃"
+      ],
+      "sort_order": 340,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "m_009",
+      "category": "style-mono",
+      "image": "img/style/style-mono/m_009.JPG",
+      "name": "粉色貓眼凝膠美甲",
+      "alt": "裸粉色短圓甲，呈現淡淡的貓眼光澤與透亮質感",
+      "image_title": "宜蘭美甲,貓眼,貓眼美甲,2026美甲,美甲款式",
+      "tags": [
+        "貓眼",
+        "粉色系",
+        "裸色系"
+      ],
+      "sort_order": 410,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "m_008",
+      "category": "style-mono",
+      "image": "img/style/style-mono/m_008.JPG",
+      "name": "跳色貓眼凝膠美甲",
+      "alt": "白色系短甲搭配單色與貓眼跳色，部分甲面帶有細閃",
+      "image_title": "宜蘭美甲,貓眼,貓眼美甲,2026美甲,美甲款式",
+      "tags": [
+        "貓眼",
+        "單色",
+        "白色系",
+        "細閃"
+      ],
+      "sort_order": 420,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "m_007",
+      "category": "style-mono",
+      "image": "img/style/style-mono/m_007.JPG",
+      "name": "跳色貓眼凝膠美甲",
+      "alt": "粉色與淡紫色短方圓甲交錯排列，搭配柔亮貓眼效果",
+      "image_title": "宜蘭美甲,貓眼,貓眼美甲,2026美甲,美甲款式",
+      "tags": [
+        "貓眼",
+        "粉色系",
+        "紫色系"
+      ],
+      "sort_order": 490,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "m_006",
+      "category": "style-mono",
+      "image": "img/style/style-mono/m_006.JPG",
+      "name": "裸色貓眼凝膠美甲",
+      "alt": "裸粉色橢圓形美甲，呈現透亮底色與細緻貓眼光澤",
+      "image_title": "宜蘭美甲,貓眼,貓眼美甲,2026美甲,美甲款式",
+      "tags": [
+        "貓眼",
+        "粉色系",
+        "裸色系"
+      ],
+      "sort_order": 500,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "m_005",
+      "category": "style-mono",
+      "image": "img/style/style-mono/m_005.JPG",
+      "name": "跳色單色凝膠美甲",
+      "alt": "薄荷綠與奶白色短方甲跳色搭配，甲面呈現純色亮面效果",
+      "image_title": "宜蘭美甲,貓眼,貓眼美甲,2026美甲,美甲款式",
+      "tags": [
+        "單色",
+        "白色系",
+        "綠色系"
+      ],
+      "sort_order": 570,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "m_004",
+      "category": "style-mono",
+      "image": "img/style/style-mono/m_004.JPG",
+      "name": "跳色貓眼凝膠美甲",
+      "alt": "白色系細閃貓眼搭配黑色跳色的方圓形美甲",
+      "image_title": "宜蘭美甲,貓眼,貓眼美甲,2026美甲,美甲款式",
+      "tags": [
+        "貓眼",
+        "白色系",
+        "黑色系",
+        "細閃"
+      ],
+      "sort_order": 580,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "m_003",
+      "category": "style-mono",
+      "image": "img/style/style-mono/m_003.JPG",
+      "name": "跳色貓眼凝膠美甲",
+      "alt": "粉色與紫色短方圓甲跳色搭配，貓眼光帶集中於甲面中央",
+      "image_title": "宜蘭美甲,貓眼,貓眼美甲,2026美甲,美甲款式",
+      "tags": [
+        "貓眼",
+        "粉色系",
+        "紫色系"
+      ],
+      "sort_order": 650,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "m_002",
+      "category": "style-mono",
+      "image": "img/style/style-mono/m_002.JPG",
+      "name": "跳色單色凝膠美甲",
+      "alt": "淡綠與白色短方圓甲交錯排列，呈現柔和的單色亮面",
+      "image_title": "宜蘭美甲,貓眼,貓眼美甲,2026美甲,美甲款式",
+      "tags": [
+        "單色",
+        "白色系",
+        "綠色系"
+      ],
+      "sort_order": 660,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "m_001",
+      "category": "style-mono",
+      "image": "img/style/style-mono/m_001.JPG",
+      "name": "貓眼凝膠美甲",
+      "alt": "灰色系短圓甲，貓眼反光呈現柔亮的銀色光澤",
+      "image_title": "宜蘭美甲,貓眼,貓眼美甲,2026美甲,美甲款式",
+      "tags": [
+        "貓眼",
+        "灰色系"
+      ],
+      "sort_order": 730,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "m_000",
+      "category": "style-mono",
+      "image": "img/style/style-mono/m_000.JPG",
+      "name": "美人魚藍細閃貓眼凝膠",
+      "alt": "淡紫與淡藍色短甲交錯搭配，貓眼光澤中帶有細緻閃光",
+      "image_title": "宜蘭美甲,貓眼,貓眼美甲,2026美甲,美甲款式",
+      "tags": [
+        "貓眼",
+        "紫色系",
+        "藍色系"
+      ],
+      "sort_order": 740,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "s_017",
+      "category": "style-simple",
+      "image": "img/style/style-simple/s_017.JPG",
+      "name": "微鑽綠色貓眼凝膠美甲",
+      "alt": "淡綠色橢圓形貓眼美甲，部分指甲點綴小鑽",
+      "image_title": "宜蘭美甲,貓眼,貓眼美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式",
+      "tags": [
+        "貓眼",
+        "綠色系",
+        "小鑽"
+      ],
+      "sort_order": 30,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "s_016",
+      "category": "style-simple",
+      "image": "img/style/style-simple/s_016.JPG",
+      "name": "微法式灰色貓眼凝膠美甲",
+      "alt": "灰色橢圓形貓眼美甲，指尖搭配細緻法式邊線",
+      "image_title": "宜蘭美甲,貓眼,貓眼美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式",
+      "tags": [
+        "貓眼",
+        "灰色系",
+        "法式美甲"
+      ],
+      "sort_order": 40,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "s_015",
+      "category": "style-simple",
+      "image": "img/style/style-simple/s_015.JPG",
+      "name": "閃亮深棕貓眼凝膠美甲",
+      "alt": "深棕色貓眼美甲，甲面點綴銀色四角星貼紙",
+      "image_title": "宜蘭美甲,貓眼,貓眼美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式,秋冬 美甲",
+      "tags": [
+        "貓眼",
+        "閃亮"
+      ],
+      "sort_order": 110,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "s_014",
+      "category": "style-simple",
+      "image": "img/style/style-simple/s_014.JPG",
+      "name": "五色水果貓眼凝膠美甲",
+      "alt": "粉色、紫色與淡綠等五色跳色美甲，搭配柔亮貓眼光澤",
+      "image_title": "宜蘭美甲,貓眼,貓眼美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式",
+      "tags": [
+        "貓眼"
+      ],
+      "sort_order": 120,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "s_013",
+      "category": "style-simple",
+      "image": "img/style/style-simple/s_013.JPG",
+      "name": "美人魚真珠貓眼凝膠美甲",
+      "alt": "藍色系短方圓形貓眼美甲，部分甲面點綴珍珠裝飾",
+      "image_title": "宜蘭美甲,貓眼,貓眼美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式",
+      "tags": [
+        "貓眼",
+        "藍色系",
+        "珍珠"
+      ],
+      "sort_order": 190,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "s_012",
+      "category": "style-simple",
+      "image": "img/style/style-simple/s_012.JPG",
+      "name": "粉色亮片漸層貓眼凝膠美甲",
+      "alt": "粉色橢圓形貓眼美甲，搭配亮片凝膠與指尖漸層閃光",
+      "image_title": "宜蘭美甲,貓眼,貓眼美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式",
+      "tags": [
+        "貓眼",
+        "粉色系",
+        "亮片凝膠"
+      ],
+      "sort_order": 200,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "s_011",
+      "category": "style-simple",
+      "image": "img/style/style-simple/s_011.JPG",
+      "name": "腮紅凝膠美甲",
+      "alt": "透粉色橢圓形美甲，甲面中央呈現柔和的腮紅暈染",
+      "image_title": "宜蘭美甲,腮紅 美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式",
+      "tags": [
+        "腮紅美甲",
+        "粉色系"
+      ],
+      "sort_order": 270,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "s_010",
+      "category": "style-simple",
+      "image": "img/style/style-simple/s_010.JPG",
+      "name": "星空貓眼凝膠美甲",
+      "alt": "藍灰色與透亮底色搭配的短甲，呈現貓眼光澤與小鑽點綴",
+      "image_title": "宜蘭美甲,貓眼,貓眼美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式",
+      "tags": [
+        "貓眼",
+        "藍色系",
+        "灰色系",
+        "小鑽"
+      ],
+      "sort_order": 280,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "s_009",
+      "category": "style-simple",
+      "image": "img/style/style-simple/s_009.jpg",
+      "name": "夏日水滴凝膠美甲",
+      "alt": "藍色漸層甲片展示，指尖由淺至深，搭配透明立體水滴紋理",
+      "image_title": "宜蘭美甲,貓眼,貓眼美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式",
+      "tags": [
+        "漸層美甲",
+        "藍色系"
+      ],
+      "sort_order": 350,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "s_008",
+      "category": "style-simple",
+      "image": "img/style/style-simple/s_008.jpg",
+      "name": "米黃珍珠凝膠美甲",
+      "alt": "米色單色美甲搭配鏡面跳色，部分指甲點綴珍珠與細小圓點",
+      "image_title": "宜蘭美甲,貓眼,貓眼美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式",
+      "tags": [
+        "單色",
+        "鏡面美甲",
+        "米色系",
+        "珍珠"
+      ],
+      "sort_order": 360,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "s_007",
+      "category": "style-simple",
+      "image": "img/style/style-simple/s_007.jpg",
+      "name": "法式腮紅凝膠美甲",
+      "alt": "裸粉腮紅底色搭配淡綠色細法式指尖的短方圓形美甲",
+      "image_title": "宜蘭美甲,腮紅 美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式",
+      "tags": [
+        "腮紅美甲",
+        "法式美甲",
+        "綠色系"
+      ],
+      "sort_order": 430,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "s_006",
+      "category": "style-simple",
+      "image": "img/style/style-simple/s_006.jpg",
+      "name": "珍珠裝飾跳色貓眼凝膠美甲",
+      "alt": "粉色系跳色貓眼美甲，搭配亮片凝膠與局部珍珠裝飾",
+      "image_title": "宜蘭美甲,貓眼,貓眼美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式",
+      "tags": [
+        "貓眼",
+        "粉色系",
+        "亮片凝膠"
+      ],
+      "sort_order": 440,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "s_005",
+      "category": "style-simple",
+      "image": "img/style/style-simple/s_005.jpg",
+      "name": "湖水綠星星亮片貓眼凝膠美甲",
+      "alt": "湖水綠貓眼甲片展示，搭配透亮跳色與星形亮片",
+      "image_title": "宜蘭美甲,貓眼,貓眼美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式",
+      "tags": [
+        "貓眼",
+        "綠色系",
+        "亮片"
+      ],
+      "sort_order": 510,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "s_004",
+      "category": "style-simple",
+      "image": "img/style/style-simple/s_004.jpg",
+      "name": "微法式粉色貓眼凝膠美甲",
+      "alt": "粉色短方圓甲搭配貓眼光澤，指尖勾勒細緻法式邊線",
+      "image_title": "宜蘭美甲,貓眼,貓眼美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式",
+      "tags": [
+        "法式美甲",
+        "粉色系"
+      ],
+      "sort_order": 520,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "s_003",
+      "category": "style-simple",
+      "image": "img/style/style-simple/s_003.jpg",
+      "name": "閃亮粉色貓眼凝膠美甲",
+      "alt": "粉色與灰色貓眼跳色美甲，點綴銀色四角星貼紙",
+      "image_title": "宜蘭美甲,貓眼,貓眼美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式",
+      "tags": [
+        "貓眼",
+        "粉色系",
+        "灰色系",
+        "閃亮"
+      ],
+      "sort_order": 590,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "s_002",
+      "category": "style-simple",
+      "image": "img/style/style-simple/s_002.jpg",
+      "name": "貓眼凝膠美甲",
+      "alt": "多色貓眼甲片展示，酒紅、紫、綠、灰與琥珀色搭配不同位置的貓眼光帶",
+      "image_title": "宜蘭美甲,貓眼,貓眼美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式",
+      "tags": [
+        "貓眼"
+      ],
+      "sort_order": 600,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "s_001",
+      "category": "style-simple",
+      "image": "img/style/style-simple/s_001.jpg",
+      "name": "星空貓眼凝膠美甲",
+      "alt": "藍色與白色系貓眼美甲搭配透亮底色，點綴四角星貼紙",
+      "image_title": "宜蘭美甲,貓眼,貓眼美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式",
+      "tags": [
+        "貓眼",
+        "藍色系",
+        "白色系",
+        "閃亮"
+      ],
+      "sort_order": 670,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "s_000",
+      "category": "style-simple",
+      "image": "img/style/style-simple/s_000.jpg",
+      "name": "米黃石頭凝膠美甲",
+      "alt": "淡黃色短方圓甲搭配不規則石紋感色塊與四角星貼紙",
+      "image_title": "宜蘭美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式",
+      "tags": [
+        "單色",
+        "黃色系",
+        "閃亮"
+      ],
+      "sort_order": 680,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "a_019",
+      "category": "style-a",
+      "image": "img/style/style-a/a_019.jpg",
+      "name": "跳色黑蕾絲珍珠凝膠美甲",
+      "alt": "綠色貓眼甲片搭配黑色蕾絲與珍珠裝飾，呈現跳色設計",
+      "image_title": "秋冬美甲,宜蘭美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式,美甲 店,指甲",
+      "tags": [
+        "貓眼",
+        "蕾絲",
+        "綠色系"
+      ],
+      "sort_order": 50,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "a_018",
+      "category": "style-a",
+      "image": "img/style/style-a/a_018.JPG",
+      "name": "貝殼蕾絲凝膠美甲",
+      "alt": "咖啡色與裸透底色美甲，搭配白色蕾絲及貝殼般的柔亮反光",
+      "image_title": "宜蘭美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式,美甲 店,指甲",
+      "tags": [
+        "蕾絲",
+        "咖啡色系"
+      ],
+      "sort_order": 60,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "a_017",
+      "category": "style-a",
+      "image": "img/style/style-a/a_017.jpg",
+      "name": "方形亮片漸層凝膠美甲",
+      "alt": "藍色系貓眼漸層甲片展示，部分甲面排列深淺交錯的方形亮片",
+      "image_title": "宜蘭美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式,美甲 店,指甲",
+      "tags": [
+        "貓眼",
+        "藍色系",
+        "亮片"
+      ],
+      "sort_order": 130,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "a_016",
+      "category": "style-a",
+      "image": "img/style/style-a/a_016.JPG",
+      "name": "珍珠鏡面凝膠美甲",
+      "alt": "白色系鏡面短甲，呈現珍珠般柔亮的反光",
+      "image_title": "宜蘭美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式,美甲 店,指甲",
+      "tags": [
+        "鏡面美甲",
+        "白色系"
+      ],
+      "sort_order": 140,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "a_015",
+      "category": "style-a",
+      "image": "img/style/style-a/a_015.jpg",
+      "name": "粉色天使翅膀凝膠美甲",
+      "alt": "粉色甲片展示，搭配立體白色天使翅膀、蝴蝶結與星形裝飾",
+      "image_title": "宜蘭美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式,美甲 店,指甲",
+      "tags": [
+        "粉色系",
+        "立體造型"
+      ],
+      "sort_order": 210,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "a_014",
+      "category": "style-a",
+      "image": "img/style/style-a/a_014.JPG",
+      "name": "奶黃漸層法式貓眼美甲",
+      "alt": "奶黃色漸層貓眼美甲，搭配細法式指尖與局部珠飾",
+      "image_title": "宜蘭美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式,美甲 店,指甲",
+      "tags": [
+        "貓眼",
+        "法式美甲",
+        "黃色系"
+      ],
+      "sort_order": 220,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "a_013",
+      "category": "style-a",
+      "image": "img/style/style-a/a_013.jpg",
+      "name": "黑色蕾絲法式凝膠美甲",
+      "alt": "黑色蕾絲法式甲片展示，細緻花紋覆於透亮帶閃光的底色上",
+      "image_title": "宜蘭美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式,美甲 店,指甲",
+      "tags": [
+        "蕾絲",
+        "法式美甲"
+      ],
+      "sort_order": 290,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "a_012",
+      "category": "style-a",
+      "image": "img/style/style-a/a_012.JPG",
+      "name": "藍紫貓眼凝膠美甲",
+      "alt": "藍紫色貓眼美甲搭配奶白跳色，點綴立體造型與星形圖案",
+      "image_title": "宜蘭美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式,美甲 店,指甲",
+      "tags": [
+        "貓眼",
+        "紫色系",
+        "立體造型"
+      ],
+      "sort_order": 300,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "a_011",
+      "category": "style-a",
+      "image": "img/style/style-a/a_011.jpg",
+      "name": "點點綠色鏡面凝膠美甲",
+      "alt": "綠色鏡面甲片展示，甲面排列大小不同的圓形亮片",
+      "image_title": "宜蘭美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式,美甲 店,指甲",
+      "tags": [
+        "鏡面美甲",
+        "綠色系",
+        "亮片"
+      ],
+      "sort_order": 370,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "a_010",
+      "category": "style-a",
+      "image": "img/style/style-a/a_010.JPG",
+      "name": "極光鏡面貓眼凝膠美甲",
+      "alt": "短方圓形貓眼美甲疊加極光鏡面效果，呈現藍綠與粉紫反光",
+      "image_title": "宜蘭美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式,美甲 店,指甲",
+      "tags": [
+        "貓眼",
+        "鏡面美甲"
+      ],
+      "sort_order": 380,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "a_009",
+      "category": "style-a",
+      "image": "img/style/style-a/a_009.jpg",
+      "name": "海邊波浪凝膠美甲",
+      "alt": "海浪感暈染甲片展示，白色與咖啡色紋理交疊，搭配局部珍珠裝飾",
+      "image_title": "宜蘭美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式,美甲 店,指甲",
+      "tags": [
+        "暈染"
+      ],
+      "sort_order": 450,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "a_008",
+      "category": "style-a",
+      "image": "img/style/style-a/a_008.JPG",
+      "name": "粉色漸層貓眼凝膠美甲",
+      "alt": "粉色漸層短甲，甲面呈現柔和的貓眼光帶與透亮質感",
+      "image_title": "宜蘭美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式,美甲 店,指甲",
+      "tags": [
+        "貓眼",
+        "漸層美甲",
+        "粉色系"
+      ],
+      "sort_order": 460,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "a_007",
+      "category": "style-a",
+      "image": "img/style/style-a/a_007.jpeg",
+      "name": "星空凝膠美甲",
+      "alt": "紫色星空暈染甲片展示，深淺紫色交疊並點綴月亮與星星",
+      "image_title": "宜蘭美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式,美甲 店,指甲",
+      "tags": [
+        "暈染",
+        "紫色系"
+      ],
+      "sort_order": 530,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "a_006",
+      "category": "style-a",
+      "image": "img/style/style-a/a_006.jpeg",
+      "name": "粉色豹紋貓眼凝膠美甲",
+      "alt": "粉色貓眼甲片搭配豹紋、圓點與柔和漸層的跳色設計",
+      "image_title": "宜蘭美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式,美甲 店,指甲",
+      "tags": [
+        "貓眼",
+        "粉色系",
+        "豹紋"
+      ],
+      "sort_order": 540,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "a_005",
+      "category": "style-a",
+      "image": "img/style/style-a/a_005.JPG",
+      "name": "日系夏季西瓜彩繪美甲",
+      "alt": "夏季西瓜主題彩繪短甲，搭配粉綠跳色、細小裝飾與立體造型",
+      "image_title": "宜蘭美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式,美甲 店,指甲",
+      "tags": [
+        "日系彩繪",
+        "立體造型"
+      ],
+      "sort_order": 610,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "a_004",
+      "category": "style-a",
+      "image": "img/style/style-a/a_004.jpeg",
+      "name": "藍色貓眼櫻桃凝膠美甲",
+      "alt": "藍色貓眼甲片展示，搭配紅色立體櫻桃、蝴蝶結與圓點裝飾",
+      "image_title": "宜蘭美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式,美甲 店,指甲",
+      "tags": [
+        "貓眼",
+        "藍色系",
+        "立體造型"
+      ],
+      "sort_order": 620,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "a_003",
+      "category": "style-a",
+      "image": "img/style/style-a/a_003.JPG",
+      "name": "粉色貓眼凝膠美甲",
+      "alt": "粉色貓眼美甲搭配透亮跳色與白色立體愛心造型",
+      "image_title": "宜蘭美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式,美甲 店,指甲",
+      "tags": [
+        "貓眼",
+        "粉色系",
+        "立體造型"
+      ],
+      "sort_order": 690,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "a_002",
+      "category": "style-a",
+      "image": "img/style/style-a/a_002.jpeg",
+      "name": "咖啡藍撞色凝膠美甲",
+      "alt": "深色甲片搭配星星、白色圓點、花朵與細法式邊線的撞色設計",
+      "image_title": "宜蘭美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式,美甲 店,指甲",
+      "tags": [
+        "咖啡色系",
+        "藍色系"
+      ],
+      "sort_order": 700,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "a_001",
+      "category": "style-a",
+      "image": "img/style/style-a/a_001.JPG",
+      "name": "粉紅色系貓眼美甲",
+      "alt": "粉紅色系貓眼短甲搭配裸透跳色，部分指甲點綴立體花飾",
+      "image_title": "宜蘭美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式,美甲 店,指甲",
+      "tags": [
+        "貓眼",
+        "粉色系",
+        "立體造型"
+      ],
+      "sort_order": 750,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "a_000",
+      "category": "style-a",
+      "image": "img/style/style-a/a_000.jpeg",
+      "name": "綠色漸層貓眼凝膠美甲",
+      "alt": "綠色漸層貓眼甲片展示，搭配彩色圓形與星形亮片",
+      "image_title": "宜蘭美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式,美甲 店,指甲",
+      "tags": [
+        "貓眼",
+        "漸層美甲",
+        "綠色系",
+        "亮片"
+      ],
+      "sort_order": 760,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "b_021",
+      "category": "style-b",
+      "image": "img/style/style-b/b_021.jpg",
+      "name": "復古格紋寶藍拼色美甲",
+      "alt": "咖啡色格紋、寶藍金色兩片與搭配銀色細閃的美甲款式展示",
+      "image_title": "宜蘭 美甲,宜蘭美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式,美甲 店,指甲",
+      "tags": [
+        "咖啡色系",
+        "藍色系",
+        "貓眼",
+        "亮片"
+      ],
+      "sort_order": 70,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "b_020",
+      "category": "style-b",
+      "image": "img/style/style-b/b_020.JPG",
+      "name": "粉金貓眼蕾絲珍珠美甲",
+      "alt": "粉色與金色貓眼美甲，搭配白色蕾絲、珍珠與深色花飾",
+      "image_title": "宜蘭 美甲,宜蘭美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式,美甲 店,指甲",
+      "tags": [
+        "貓眼",
+        "粉色系",
+        "鏡面美甲",
+        "蕾絲",
+        "AB款"
+      ],
+      "sort_order": 80,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "b_019",
+      "category": "style-b",
+      "image": "img/style/style-b/b_019.jpg",
+      "name": "裸透彩色寶石凝膠美甲",
+      "alt": "裸透底色搭配彩色愛心、水滴與幾何寶石裝飾的美甲款式展示",
+      "image_title": "宜蘭 美甲,宜蘭美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式,美甲 店,指甲",
+      "tags": [
+        "裸色系",
+        "小鑽",
+        "立體造型"
+      ],
+      "sort_order": 150,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "b_018",
+      "category": "style-b",
+      "image": "img/style/style-b/b_018.JPG",
+      "name": "白色漸層鏡面海莉甲",
+      "alt": "白色漸層長杏仁形海莉甲，表面疊上鏡面粉呈現柔亮光澤",
+      "image_title": "宜蘭 美甲,宜蘭美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式,美甲 店,指甲",
+      "tags": [
+        "海莉甲",
+        "漸層美甲",
+        "鏡面美甲",
+        "白色系"
+      ],
+      "sort_order": 160,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "b_017",
+      "category": "style-b",
+      "image": "img/style/style-b/b_017.jpg",
+      "name": "銀色鏡面彩色寶石美甲",
+      "alt": "銀色鏡面底色搭配彩色星星、愛心與圓形裝飾的美甲款式展示",
+      "image_title": "宜蘭 美甲,宜蘭美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式,美甲 店,指甲",
+      "tags": [
+        "鏡面美甲",
+        "小鑽",
+        "立體造型"
+      ],
+      "sort_order": 230,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "b_016",
+      "category": "style-b",
+      "image": "img/style/style-b/b_016.jpg",
+      "name": "透粉星星立體小兔美甲",
+      "alt": "透粉與銀灰色美甲，搭配星星亮片、立體白色小兔及紅色裝飾",
+      "image_title": "宜蘭 美甲,宜蘭美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式,美甲 店,指甲",
+      "tags": [
+        "粉色系",
+        "藍色系",
+        "亮片",
+        "立體造型"
+      ],
+      "sort_order": 240,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "b_015",
+      "category": "style-b",
+      "image": "img/style/style-b/b_015.jpg",
+      "name": "海洋貝殼立體紋理美甲",
+      "alt": "白色與咖啡色美甲款式展示，搭配貝殼紋理、立體花紋與珍珠裝飾",
+      "image_title": "宜蘭 美甲,宜蘭美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式,美甲 店,指甲",
+      "tags": [
+        "白色系",
+        "咖啡色系",
+        "立體造型"
+      ],
+      "sort_order": 310,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "b_014",
+      "category": "style-b",
+      "image": "img/style/style-b/b_014.JPG",
+      "name": "奶白銀灰立體花朵美甲",
+      "alt": "奶白與銀灰色短甲，搭配銀色立體花朵和圓珠裝飾",
+      "image_title": "宜蘭 美甲,宜蘭美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式,美甲 店,指甲",
+      "tags": [
+        "白色系",
+        "紫色系",
+        "貓眼",
+        "立體造型"
+      ],
+      "sort_order": 320,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "b_013",
+      "category": "style-b",
+      "image": "img/style/style-b/b_013.jpg",
+      "name": "玫瑰粉蕾絲鏡面美甲",
+      "alt": "玫瑰粉色美甲款式展示，搭配白色蕾絲、深色圓點、鏡面與銀色細閃",
+      "image_title": "宜蘭 美甲,宜蘭美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式,美甲 店,指甲",
+      "tags": [
+        "粉色系",
+        "蕾絲",
+        "鏡面美甲",
+        "細閃"
+      ],
+      "sort_order": 390,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "b_012",
+      "category": "style-b",
+      "image": "img/style/style-b/b_012.JPG",
+      "name": "奶白鏡面金屬花朵美甲",
+      "alt": "奶白與銀灰色美甲，搭配金屬感花朵線條與圓珠裝飾",
+      "image_title": "宜蘭 美甲,宜蘭美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式,美甲 店,指甲",
+      "tags": [
+        "白色系",
+        "藍色系",
+        "鏡面美甲",
+        "立體造型"
+      ],
+      "sort_order": 400,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "b_011",
+      "category": "style-b",
+      "image": "img/style/style-b/b_011.jpg",
+      "name": "煙燻玫瑰細閃凝膠美甲",
+      "alt": "煙燻玫瑰色美甲款式展示，搭配細閃、圓點與透明立體紋理",
+      "image_title": "宜蘭 美甲,宜蘭美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式,美甲 店,指甲",
+      "tags": [
+        "粉色系",
+        "細閃",
+        "貓眼"
+      ],
+      "sort_order": 470,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "b_010",
+      "category": "style-b",
+      "image": "img/style/style-b/b_010.JPG",
+      "name": "裸粉極光鏡面短甲",
+      "alt": "裸粉色短方圓形海莉甲，鏡面粉呈現淡金與粉紫色極光光澤",
+      "image_title": "宜蘭 美甲,宜蘭美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式,美甲 店,指甲",
+      "tags": [
+        "鏡面美甲",
+        "粉色系",
+        "裸色系",
+        "海莉甲"
+      ],
+      "sort_order": 480,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "b_009",
+      "category": "style-b",
+      "image": "img/style/style-b/b_009.jpg",
+      "name": "蜜桃腮紅亮片凝膠美甲",
+      "alt": "蜜桃粉色腮紅暈染美甲款式展示，搭配彩色六角亮片與星形裝飾",
+      "image_title": "宜蘭 美甲,宜蘭美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式,美甲 店,指甲",
+      "tags": [
+        "腮紅美甲",
+        "粉色系",
+        "亮片"
+      ],
+      "sort_order": 550,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "b_008",
+      "category": "style-b",
+      "image": "img/style/style-b/b_008.JPG",
+      "name": "裸粉腮紅貓眼珍珠美甲",
+      "alt": "裸粉色短方圓甲，中央呈現腮紅暈染，指尖搭配貓眼光澤、珍珠與金色小珠裝飾",
+      "image_title": "宜蘭 美甲,宜蘭美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式,美甲 店,指甲",
+      "tags": [
+        "腮紅美甲",
+        "貓眼",
+        "裸色系",
+        "粉色系",
+        "珍珠"
+      ],
+      "sort_order": 560,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "b_007",
+      "category": "style-b",
+      "image": "img/style/style-b/b_007.jpg",
+      "name": "銀色鏡面塗鴉凝膠美甲",
+      "alt": "銀色鏡面美甲款式展示，搭配笑臉、星星與旋渦線條圖案",
+      "image_title": "宜蘭 美甲,宜蘭美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式,美甲 店,指甲",
+      "tags": [
+        "鏡面美甲",
+        "灰色系",
+        "日系彩繪"
+      ],
+      "sort_order": 630,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "b_006",
+      "category": "style-b",
+      "image": "img/style/style-b/b_006.JPG",
+      "name": "霧藍蝴蝶結亮片美甲",
+      "alt": "藍色與裸粉色美甲，搭配白色蝴蝶結圖案、星星及彩色亮片",
+      "image_title": "宜蘭 美甲,宜蘭美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式,美甲 店,指甲",
+      "tags": [
+        "藍色系",
+        "蕾絲",
+        "亮片"
+      ],
+      "sort_order": 640,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "b_005",
+      "category": "style-b",
+      "image": "img/style/style-b/b_005.JPG",
+      "name": "腮紅極光鏡面貓眼美甲",
+      "alt": "腮紅底色疊上極光鏡面粉，部分指甲再疊加貓眼光澤，搭配透明立體線條",
+      "image_title": "宜蘭 美甲,宜蘭美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式,美甲 店,指甲",
+      "tags": [
+        "腮紅美甲",
+        "鏡面美甲",
+        "貓眼",
+        "粉色系",
+        "立體造型"
+      ],
+      "sort_order": 710,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "b_004",
+      "category": "style-b",
+      "image": "img/style/style-b/b_004.JPG",
+      "name": "奶白裸粉金屬線條美甲",
+      "alt": "奶白、裸粉與銀色鏡面跳色美甲，搭配金屬感線條及圓珠裝飾",
+      "image_title": "宜蘭 美甲,宜蘭美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式,美甲 店,指甲",
+      "tags": [
+        "鏡面美甲",
+        "白色系",
+        "粉色系",
+        "立體造型"
+      ],
+      "sort_order": 720,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "b_003",
+      "category": "style-b",
+      "image": "img/style/style-b/b_003.JPG",
+      "name": "寶藍細法式星光美甲",
+      "alt": "裸色短甲搭配寶藍細法式、藍紫貓眼與星形圖案",
+      "image_title": "宜蘭 美甲,宜蘭美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式,美甲 店,指甲",
+      "tags": [
+        "法式美甲",
+        "貓眼",
+        "藍色系",
+        "細閃"
+      ],
+      "sort_order": 770,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "b_002",
+      "category": "style-b",
+      "image": "img/style/style-b/b_002.jpeg",
+      "name": "銀灰貓眼蕾絲珍珠美甲",
+      "alt": "保留自然甲色的短甲，搭配白色蕾絲、指尖珍珠與銀灰色貓眼光澤",
+      "image_title": "宜蘭 美甲,宜蘭美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式,美甲 店,指甲",
+      "tags": [
+        "貓眼",
+        "灰色系",
+        "白色系",
+        "蕾絲",
+        "珍珠"
+      ],
+      "sort_order": 780,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "b_001",
+      "category": "style-b",
+      "image": "img/style/style-b/b_001.JPG",
+      "name": "奶油黃立體花朵美甲",
+      "alt": "奶油黃與奶白色短甲，搭配銀灰色花朵造型及金屬感圓珠裝飾",
+      "image_title": "宜蘭 美甲,宜蘭美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式,美甲 店,指甲",
+      "tags": [
+        "黃色系",
+        "白色系",
+        "立體造型"
+      ],
+      "sort_order": 790,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "b_000",
+      "category": "style-b",
+      "image": "img/style/style-b/b_000.JPG",
+      "name": "橄欖綠咖啡暈染美甲",
+      "alt": "橄欖綠與咖啡色暈染短甲，搭配金屬感圓珠與不規則花紋",
+      "image_title": "宜蘭 美甲,宜蘭美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式,美甲 店,指甲",
+      "tags": [
+        "暈染",
+        "綠色系",
+        "咖啡色系"
+      ],
+      "sort_order": 800,
+      "published_date": "2026-11-04"
+    },
+    {
+      "id": "a_020",
+      "category": "style-a",
+      "image": "img/style/style-a/a_020.jpg",
+      "name": "秋季琥珀暈染凝膠美甲",
+      "alt": "秋季琥珀暈染凝膠美甲",
+      "image_title": "秋冬美甲,宜蘭美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式,美甲 店,指甲",
+      "tags": [
+        "咖啡色系",
+        "暈染"
+      ],
+      "sort_order": 810,
+      "published_date": "2026-11-06",
+      "monthly_offer": {
+        "month": "2026-11",
+        "price": 1000
+      }
+    },
+    {
+      "id": "b_022",
+      "category": "style-b",
+      "image": "img/style/style-b/b_022.jpg",
+      "name": "深藍格紋貓眼凝膠美甲",
+      "alt": "深藍格紋貓眼凝膠美甲",
+      "image_title": "秋冬美甲,宜蘭美甲,2026美甲,美甲款式,美甲 推薦,美甲 款式,美甲 店,指甲",
+      "tags": [
+        "貓眼",
+        "藍色系"
+      ],
+      "sort_order": 820,
+      "published_date": "2026-11-06",
+      "monthly_offer": {
+        "month": "2026-11",
+        "price": 1050
+      }
+    }
+  ]
+}
