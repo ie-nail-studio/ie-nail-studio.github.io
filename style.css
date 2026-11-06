@@ -1,0 +1,1180 @@
+/* ==========================================================================
+   i.e. NAIL STUDIO - Y2K x Windows 95 Pixel Style System (Refined)
+   ========================================================================== */
+
+/* --- 1. 全域變數與重置 (Variables & Reset) --- */
+:root {
+  /* 品牌色系：Y2K 奶油米白、範例圖經典寶藍漸層、Win95 水泥灰 */
+  --bg-cream: #FDF3E3;          /* 網頁主背景：奶油燕麥色 */
+  --win-gray: #C0C0C0;          /* 視窗主體：Win95 經典水泥灰 */
+  --win-light: #FFFFFF;         /* 立體高光 */
+  --win-dark: #808080;          /* 立體陰影 */
+  --win-shadow: #000000;        /* 經典重黑框 */
+  
+  /* 範例圖靈魂：高飽和度夢幻寶藍 ➔ 電光天空藍 */
+  --win-blue: #1C3EE8;          /* 漸層左：鮮明寶藍 */
+  --win-blue-light: #309DFF;    /* 漸層右：電光天空藍 */
+  
+  /* 點綴色（價目表櫻桃紅與芒果黃） */
+  --accent-pink: #FF8A8A;
+  --accent-mint: #FFB82E;
+  
+  /* 文字與強烈像素邊框 */
+  --text-main: #000000;
+  --text-muted: #555555;
+  --border-pixel: 1px solid #000000; /* 修正：全站預設降為精細 1px */
+  
+  /* 字體系統 */
+  --font-pixel: 'VT323', monospace;
+  --font-main: 'Noto Sans TC', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  background-color: #E2E8F0;
+  position: relative;
+  /* min-height: 100vh; */
+  max-width: 600px;
+  color: var(--text-main);
+  font-family: var(--font-main);
+  /* 修正：加上上左右 10px 留白，讓整個視窗浮在背景上不貼邊 */
+  padding: 12px; 
+  margin: 0 auto;
+  overflow-x: hidden;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+body::before {
+  content: "";
+  position: fixed;
+  top: -60px;
+  left: -60px;
+  width: 320px;
+  height: 320px;
+  background: #FFB6C1;
+  border-radius: 50%;
+  filter: blur(80px);
+  z-index: -1;
+}
+body::after {
+  content: "";
+  position: fixed;
+  bottom: -60px;
+  right: -60px;
+  width: 380px;
+  height: 380px;
+  background: #87CEFA;
+  border-radius: 50%;
+  filter: blur(80px);
+  z-index: -1;
+}
+/* 2. 把你的 Header 變成毛玻璃板 */
+.win95-header {
+  background: rgba(192, 192, 192, 0.75) !important; /* 半透明水泥灰 */
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* 自訂 Win95 經典像素捲軸 (Scrollbar) */
+::-webkit-scrollbar {
+  width: 16px;
+  height: 16px;
+  background: var(--win-gray);
+}
+
+::-webkit-scrollbar-track {
+  background: #E0E0E0;
+  border-left: 1px solid #000000;
+  box-shadow: inset 1px 1px 0px var(--win-dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--win-gray);
+  border: 1px solid #000000;
+  box-shadow: 
+    inset 1px 1px 0px var(--win-light), 
+    inset -1px -1px 0px var(--win-dark);
+}
+
+::-webkit-scrollbar-button {
+  background: var(--win-gray);
+  border: 1px solid #000000;
+  box-shadow: 
+    inset 1px 1px 0px var(--win-light), 
+    inset -1px -1px 0px var(--win-dark);
+  width: 16px;
+  height: 16px;
+}
+
+/* --- 2. Win95 經典復古外框與視窗樣式 (Win95 UI Elements) --- */
+
+/* 修正：1px 精細外黑框 + 內側立體高光 + 靈魂 Padding 把藍條包在裡面 */
+.win95-window, .win95-header, .win95-table-wrapper {
+  background: var(--win-gray);
+  border: 1px solid #000000; 
+  box-shadow: 
+    inset 1px 1px 0px var(--win-light),  
+    inset -1px -1px 0px var(--win-dark),
+    2px 2px 5px rgba(0,0,0,0.15); /* 輕微落地陰影 */
+  padding: 3px; /* 👈 關鍵：視窗外殼內襯，藍條才會被「包」進去 */
+  margin-bottom: 58px;
+}
+
+/* 經典視窗標題列：鑲嵌在灰底內，無外框 */
+.window-title-bar, .win95-title-bar {
+  background: linear-gradient(90deg, var(--win-blue), var(--win-blue-light));
+  color: white;
+  padding: 6px 8px;
+  font-family: var(--font-pixel);
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none; /* 👈 移除黑框，回歸經典鑲嵌質感 */
+}
+.win95-title{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* 右上角視窗控制鈕 (_ □ X) */
+.win95-controls {
+  display: flex;
+  gap: 4px;
+}
+
+/* 右上角視窗控制鈕 (_ □ X) 經典光影 */
+.win95-controls span, .win95-control-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 14px;
+  background: var(--win-gray);
+  /* 光影邊框：上左白、下右黑/灰 */
+  border-top: 1px solid var(--win-light);
+  border-left: 1px solid var(--win-light);
+  border-right: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  box-shadow: inset -1px -1px 0px var(--win-dark); 
+  font-family: var(--font-pixel);
+  font-size: 0.7rem;
+  font-weight: bold;
+  color: #000000;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.win95-controls span:active {
+  /* 按下時光影反轉：陷下去的效果 */
+  border-top: 1px solid #000000;
+  border-left: 1px solid #000000;
+  border-right: 1px solid var(--win-light);
+  border-bottom: 1px solid var(--win-light);
+  box-shadow: inset 1px 1px 0px var(--win-dark);
+}
+
+/* 內容區主要按鈕：經典 Win95 雙層 3D 高光陰影 */
+.win95-btn, .win95-action-btn, .win95-start-btn {
+  background: var(--win-gray);
+  border-top: 2px solid var(--win-light);
+  border-left: 2px solid var(--win-light);
+  border-right: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+  box-shadow: inset -1px -1px 0px var(--win-dark);
+  color: var(--text-main);
+  font-family: var(--font-main);
+  font-weight: bold;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1px 6px;
+  outline: none; /* 移除現代的粗黑外框 */
+}
+
+/* 按鈕按下的擬真反壓感 */
+.win95-btn:active, .win95-action-btn:active, .win95-start-btn:active {
+  border-top: 2px solid #000000;
+  border-left: 2px solid #000000;
+  border-right: 2px solid var(--win-light);
+  border-bottom: 2px solid var(--win-light);
+  box-shadow: inset 1px 1px 0px var(--win-dark);  /* 文字向右下微移 1px，極度擬真！ */
+}
+
+a.win95-action-btn{
+  text-decoration: none;
+  color: var(--text-main);
+}
+
+.window-body {
+  padding: 12px;
+}
+
+/* --- 3. 頂部 Banner 與導覽列 (Announcement & Navigation) --- */
+
+.win95-header {
+  position: sticky;
+  top: 10px; /* 修正：黏在 top 10px，配合 body padding 保持距離 */
+  z-index: 900;
+  margin-bottom: 15px;
+}
+
+/* 藍色標題列下方：網址列概念的 Nav 導覽工具列 */
+.nav-container {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 6px 0px;
+  background: var(--win-gray);
+  border: none;
+  border-bottom: 1px solid var(--win-dark); /* 僅底部一條細陰影線與內容區隔開 */
+  margin-top: 1px;
+}
+
+@media (min-width: 600px) {
+  .nav-container {
+    justify-content: space-between;
+  }
+  .nav-links {
+    display: flex;
+    gap: 2px;
+  }
+
+.brand-logo {
+  font-family: var(--font-pixel);
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: var(--text-main);
+  font-weight: bold;
+}
+
+.brand-pixel {
+  color: #000;
+  background: var(--accent-pink);
+  padding: 0 4px;
+}
+}
+/* 漢堡選單 */
+.menu-toggle {
+  background: var(--win-gray);
+  border-top: 2px solid var(--win-light);
+  border-left: 2px solid var(--win-light);
+  border-right: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+  box-shadow: inset -1px -1px 0px var(--win-dark);
+  color: var(--text-main);
+  padding: 12px 6px;
+  margin-right: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none; /* 移除現代的粗黑外框 */
+}
+
+.menu-toggle:active {
+  border-top: 2px solid #000000;
+  border-left: 2px solid #000000;
+  border-right: 2px solid var(--win-light);
+  border-bottom: 2px solid var(--win-light);
+  box-shadow: inset 1px 1px 0px var(--win-dark);
+}
+
+.hamburger-pixel {
+  width: 16px;
+  height: 2px;
+  background: #000;
+  position: relative;
+}
+.hamburger-pixel::before, .hamburger-pixel::after {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 2px;
+  background: #000;
+  left: 0;
+}
+.hamburger-pixel::before { top: -5px; }
+.hamburger-pixel::after { top: 5px; }
+
+/* 導覽下拉選單 */
+.nav-links-wrapper {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0px;
+  width: 160px;
+  background: var(--win-gray);
+  border: 1px solid #000000;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+  z-index: 1000;
+}
+
+.nav-links-wrapper.show {
+  display: block;
+}
+
+.win95-dropdown-header, .win95-dropdown-footer {
+  background: linear-gradient(90deg, var(--win-blue), var(--win-blue-light));
+  color: #fff;
+  padding: 8px 12px;
+  font-size: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+/* 選單選項：純文字，無外框 */
+.nav-links li a {
+  display: block;
+  padding: 8px 16px;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  font-size: 0.85rem;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 滑鼠 Hover 或 Active 時：反藍白字 (Win95 經典選單選取狀態) */
+.nav-links li a:hover, 
+.nav-links li a.active {
+  background: var(--win-blue);
+  color: #ffffff;
+  box-shadow: none;
+}
+
+
+.pixel-dot {
+  font-family: var(--font-pixel);
+  opacity: 0.7;
+  float: right;
+}
+
+/* 桌機版 Nav 轉換為橫排工具列 */
+@media (min-width: 600px) {
+  .menu-toggle {
+    display: none;
+  }
+  
+  .nav-links-wrapper {
+    display: block !important;
+    position: static;
+    width: auto;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    margin-top: 0;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 4px;
+  }
+  
+  .nav-links li a {
+    display: inline-block;
+    padding: 2px 8px;
+    background: var(--win-gray);
+    border: 1px solid #000000;
+    box-shadow: inset 1px 1px 0px var(--win-light), inset -1px -1px 0px var(--win-dark);
+    font-size: 0.85rem;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .nav-links li a:hover, .nav-links li a.active {
+    background: var(--win-blue);
+    color: #fff;
+    box-shadow: inset 1px 1px 0px var(--win-dark), inset -1px -1px 0px var(--win-light);
+  }
+  
+  .win95-dropdown-header, .win95-dropdown-footer, .pixel-dot {
+    display: none;
+  }
+}
+
+/* --- 4. 主要內容區 (Content) --- */
+.content-wrapper {
+  padding: 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.page-content {
+  animation: fadeIn 0.2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* 頁面標題 */
+.section-title-pixel h2 {
+  font-family: var(--font-pixel);
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 15px 0;
+  background: #fff;
+  border: 1px dashed var(--win-dark);
+  padding: 6px;
+}
+
+/* --- 5. 首頁 (Home Section) --- */
+.hero-title {
+  font-family: var(--font-pixel);
+  font-size: 2.2rem;
+  color: var(--win-blue);
+}
+
+.hero-subtitle {
+  font-weight: bold;
+  color: var(--text-muted);
+  margin-bottom: 12px;
+}
+
+.pixel-art-hand {
+  font-size: 2.5rem;
+  margin: 15px 0;
+}
+
+.hero-desc {
+  font-size: 0.9rem;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: left;
+  background: #fff;
+  padding: 10px;
+  border: 1px solid var(--win-dark);
+}
+
+.hero-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.win95-action-btn.primary {
+  /* background: var(--accent-pink); */
+  background: linear-gradient(135deg, #E879F9 0%, #C084FC 40%, #38BDF8 100%);
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 10px 20px;
+  text-shadow: 1px 1px 2px rgba(50, 10, 100, 0.7);
+  
+  /* Win95 經典立體浮雕感 */
+  border: 2px solid;
+  border-color: #FFFFFF #581C87 #581C87 #FFFFFF;
+  box-shadow: inset 1px 1px 0px #FDF4FF, inset -1px -1px 0px #7E22CE;
+  cursor: pointer;
+}
+
+.win95-action-btn.secondary {
+  /* background: var(--accent-mint); */
+  background-color: #C0C0C0;
+  color: #000000;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 10px 20px;
+  
+  border: 2px solid;
+  border-color: #FFFFFF #000000 #000000 #FFFFFF;
+  box-shadow: inset 1px 1px 0px #DFDFDF, inset -1px -1px 0px #808080;
+  cursor: pointer;
+}
+
+.win95-action-btn.primary:active ,.win95-action-btn.secondary:active {
+  border-top: 2px solid #000000;
+  border-left: 2px solid #000000;
+  border-right: 2px solid var(--win-light);
+  border-bottom: 2px solid var(--win-light);
+  box-shadow: inset 1px 1px 0px var(--win-dark);  /* 文字向右下微移 1px，極度擬真！ */
+}
+
+/* 款式卡片網格 */
+.grid-layout, .gallery-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+.nail-card {
+  background: #fff;
+  border: 1px solid #000;
+  padding: 6px;
+  box-shadow: 2px 2px 0px #000;
+}
+
+.nail-img-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1; /* 🌟 關鍵：無論寬度怎麼變，高度永遠保持 1:1 正方形 */
+  overflow: hidden;
+  border: 1px solid var(--win-dark);
+}
+
+.nail-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.badge-new {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background: linear-gradient(135deg, #E879F9 0%, #C084FC 40%, #38BDF8 100%);
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 0.75rem;
+  padding: 2px 6px;
+  border: 1px solid #000;
+}
+
+.nail-info {
+  padding-top: 8px;
+}
+
+.nail-info h3 {
+  font-size: 1rem;
+}
+
+.nail-info .price {
+  color: var(--win-blue);
+  font-weight: bold;
+  font-family: var(--font-pixel);
+  font-size: 1.2rem;
+}
+
+.nail-info .price .original-price {
+  margin-left: 6px;
+  color: #716f6f;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.nail-tags {
+  margin-top: 4px;
+}
+
+.tag {
+  display: inline-block;
+  background: #eef2f5;
+  color: #555;
+  font-size: 0.7rem;
+  padding: 2px 5px;
+  margin-right: 4px;
+  border: 1px solid #ccc;
+}
+
+/* --- 6. 款式風格 Tabs (Gallery) --- */
+.win95-tabs {
+  display: flex;
+  justify-content: flex-start;
+  gap: 4px;
+  overflow-x: auto;
+  padding: 12px;
+}
+@media (min-width: 600px) {
+  .win95-tabs {
+    justify-content: flex-end;
+  }
+}
+
+.tab-btn {
+  padding: 4px 8px;
+  font-size: 0.85rem;
+  white-space: nowrap;
+
+  background-color: #C0C0C0;
+  color: #000000;
+  
+  border: 2px solid;
+  border-color: #FFFFFF #000000 #000000 #FFFFFF;
+  box-shadow: inset 1px 1px 0px #DFDFDF, inset -1px -1px 0px #808080;
+  cursor: pointer;
+}
+
+a.tab-btn {
+  text-decoration: none;
+  color: var(--text-main);
+  display: inline-block;
+}
+
+.tab-btn.active {
+  background: linear-gradient(135deg, #E879F9 0%, #C084FC 40%, #38BDF8 100%);
+  color: #FFFFFF;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(50, 10, 100, 0.7);
+  
+  /* Win95 經典立體浮雕感 */
+  border: 2px solid;
+  border-color: #FFFFFF #581C87 #581C87 #FFFFFF;
+  box-shadow: inset 1px 1px 0px #FDF4FF, inset -1px -1px 0px #7E22CE;
+  cursor: pointer;
+}
+
+.tab-intro {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 12px;
+}
+
+.category-desc {
+  font-size: 0.88rem;
+  background: #fff;
+  padding: 10px;
+  border: 1px solid var(--win-dark);
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+/* --- 7. 價目表表格 (Pricing Table) --- */
+.win95-table-wrapper {
+  overflow-x: auto;
+  background: #fff;
+}
+
+.win95-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+
+.win95-table th, .win95-table td {
+  padding: 8px;
+  border: 1px solid var(--win-gray);
+  text-align: left;
+}
+
+.win95-table th {
+  background: var(--win-gray);
+  font-weight: bold;
+}
+
+/* 備註小字樣式 */
+.service-info {
+  font-size: 12px;
+  color: #666666;
+  margin-top: 2px;
+}
+
+.table-group-header td {
+  background: #f0f0f0;
+  font-weight: bold;
+  color: var(--win-blue);
+}
+
+.table-group-note td {
+  background-color: #f0f0f0;
+  font-size: 12px;
+  color: #666666;
+  padding: 4px 8px;
+  border-bottom: 1px solid var(--win-dark);
+}
+
+.win95-status-bar {
+  background: var(--win-gray);
+  border-top: 1px solid var(--win-dark);
+  padding: 4px 8px;
+  font-size: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* --- 8. 關於我 (About Section) --- */
+.about-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.avatar-pixel-border {
+  width: 130px;
+  height: 130px;
+  border: 2px solid #000;
+  padding: 3px;
+  background: #fff;
+}
+
+.avatar-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-badge {
+  font-size: 0.8rem;
+  color: var(--win-blue);
+  font-weight: bold;
+  margin: 6px 0;
+}
+
+.about-text {
+  font-size: 0.88rem;
+  background: #fff;
+  padding: 10px;
+  border: 1px solid var(--win-dark);
+}
+
+/* --- 9. 預約與位置 (Booking & Location) --- */
+.pixel-map-box {
+  background: #fff;
+  border: 1px solid #000;
+  padding: 12px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.map-pixel-icon {
+  font-size: 2rem;
+  color: var(--accent-pink);
+  margin-bottom: 8px;
+}
+
+.win95-alert {
+  background: #fff8e1;
+  border: 1px solid #ffa000;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 0.8rem;
+}
+.win95-alert-content{
+  display: flex;
+}
+
+.booking-gateways {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 12px;
+}
+
+.gate-card {
+  background: #fff;
+  border: 1px solid var(--win-dark);
+  padding: 12px;
+}
+
+.gate-icon { font-size: 2rem; }
+
+.embed-container {
+  min-height: 250px;
+  background: #fff;
+  border: 1px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* --- 10. 右下角懸浮按鈕 & Win95 底部工作列 (Sticky CTA & Taskbar) --- */
+.sticky-cta {
+  position: fixed;
+  bottom: 50px;
+  right: 12px;
+  z-index: 800;
+  background-color: #191816;
+  color: #ffffff;
+  font-size: 0.9rem;
+  text-decoration: none;
+  letter-spacing: 2px;
+  border: 2px solid;
+  border-color: #FFFFFF #000000 #000000 #FFFFFF;
+  box-shadow: inset 1px 1px 0px #DFDFDF, inset -1px -1px 0px #808080;
+  padding: 8px 10px;
+}
+
+.pulse-pixel {
+  width: 12px;
+  height: 12px;
+  margin-right: 8px;
+  background-color: #FF0000;
+  border-radius: 50%;
+  box-shadow: 0 0 4px #FF0000;
+  animation: blink 1.2s infinite; /* 閃爍動畫 */
+}
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.2; }
+}
+
+.win95-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 38px;
+  background: var(--win-gray);
+  border-top: 2px solid var(--win-light);
+  box-shadow: inset 0 1px 0px var(--win-dark);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px 6px;
+  z-index: 1000;
+}
+
+.win95-start-btn {
+  font-family: var(--font-pixel);
+  font-size: 1.1rem;
+}
+
+/* 開始功能表 Dropdown */
+.start-btn-wrapper {
+  position: relative;
+}
+
+.start-menu {
+  display: none;
+  position: absolute;
+  bottom: 38px;
+  left: 0px;
+  width: 200px;
+  background: var(--win-gray);
+  border: 1px solid #000000;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.4);
+}
+
+.start-menu.show {
+  display: flex;
+}
+
+.start-sidebar {
+  background: linear-gradient(0deg, var(--win-blue), var(--win-blue-light));
+  width: 30px;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  color: white;
+  font-family: var(--font-pixel);
+  font-size: 1.1rem;
+  padding: 8px 4px;
+  text-align: center;
+}
+
+.start-menu-list {
+  flex: 1;
+}
+
+.start-menu-list a {
+  display: block;
+  padding: 8px 12px;
+  text-decoration: none;
+  color: var(--text-main);
+  font-size: 0.85rem;
+}
+
+.start-menu-list a:hover {
+  background: var(--win-blue);
+  color: white;
+}
+
+.win95-hr {
+  border: none;
+  border-top: 1px solid var(--win-dark);
+  border-bottom: 1px solid var(--win-light);
+  margin: 4px 0;
+}
+
+.taskbar-tabs {
+  flex: 1;
+  margin: 0 6px;
+}
+
+.taskbar-tab {
+  background: var(--win-gray);
+  border-top: 2px solid var(--win-dark);
+  border-left: 2px solid var(--win-dark);
+  border-right: 2px solid var(--win-light);
+  border-bottom: 2px solid var(--win-light);
+  padding: 2px 8px;
+  font-size: 0.75rem;
+  max-width: 140px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  outline: 1px solid #000;
+}
+
+.sys-clock {
+  font-family: var(--font-pixel);
+  font-size: 1rem;
+  border-top: 2px solid var(--win-dark);
+  border-left: 2px solid var(--win-dark);
+  border-right: 2px solid var(--win-light);
+  border-bottom: 2px solid var(--win-light);
+  padding: 2px 6px;
+  background: var(--win-gray);
+  outline: 1px solid #000;
+}
+
+/* 工具類別 */
+.text-center { text-align: center; }
+.mt-2 { margin-top: 8px; }
+.mt-3 { margin-top: 12px; }
+
+/* 螢幕放大時的電腦版微調 */
+@media (min-width: 600px) {
+  .grid-layout, .gallery-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .booking-gateways {
+    flex-direction: row;
+  }
+  .gate-card {
+    flex: 1;
+  }
+}
+
+/* 1. 彈跳視窗遮罩（半透明黑底） */
+.win95-popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(4px); /* 讓背景稍微模糊，凸顯彈跳視窗 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999; /* 確保在最上層 */
+}
+
+/* 2. 復古彈跳視窗本體 */
+.win95-popup {
+  background: #C0C0C0;
+  width: 90%;
+  max-width: 380px;
+  border: 2px solid;
+  border-color: #FFFFFF #000000 #000000 #FFFFFF;
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.3), inset -1px -1px 0px #808080;
+  padding: 2px;
+}
+
+/* 標題列 */
+.popup-title-bar {
+  background: linear-gradient(90deg, #1C3EE8, #309DFF);
+  color: #FFF;
+  padding: 3px 6px;
+  font-family: 'VT323', monospace;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.popup-close-btn {
+  width: 16px;
+  height: 14px;
+  background: #C0C0C0;
+  border: 1px solid;
+  border-color: #FFF #000 #000 #FFF;
+  font-size: 0.7rem;
+  line-height: 12px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* 內容區 */
+.popup-body {
+  padding: 16px 12px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 0.9rem;
+}
+
+.popup-icon {
+  font-size: 2rem;
+}
+
+.popup-text strong {
+  color: #1C3EE8;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.popup-text code {
+  background: #FFF;
+  border: 1px inset #808080;
+  padding: 1px 6px;
+  color: #FF3B56;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+/* 按鈕區 */
+.popup-footer {
+  padding: 8px;
+  text-align: center;
+  background: #C0C0C0;
+}
+
+.win95-btn-action {
+  background: #C0C0C0;
+  border: 2px solid;
+  border-color: #FFFFFF #000000 #000000 #FFFFFF;
+  padding: 4px 16px;
+  font-weight: bold;
+  font-size: 0.85rem;
+  cursor: pointer;
+  box-shadow: active -1px -1px 0px #808080;
+}
+
+.win95-btn-action:active {
+  border-color: #000000 #FFFFFF #FFFFFF #000000;
+}
+
+
+/* 輪播圖 */
+
+/* 輪播圖外框架 (維持 4:3 比例) */
+.carousel-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  overflow: hidden; /* 強制切除溢出 */
+}
+
+/* 圖片顯示區塊 */
+.carousel-slide {
+  display: flex;
+  width: 100%;
+  aspect-ratio: 4 / 3; /* 鎖定 4:3 比例，畫面不變形 */
+  /* overflow: hidden; */
+  transition: transform 0.4s ease-in-out;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: 100%;
+  flex-shrink: 0; /* 防止圖片被壓縮 */
+  object-fit: cover;
+}
+
+/* 底部 Win95 控制條 */
+.carousel-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0px;
+  background-color: #c0c0c0;
+  border-top: 2px solid #ffffff; /* 頂部白線營造立體切割感 */
+}
+
+/* Win95 立體按鈕風格 */
+.carousel-btn {
+  background-color: #c0c0c0;
+  font-family: monospace;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 4px 10px;
+  cursor: pointer;
+  border-top: 2px solid #ffffff;
+  border-left: 2px solid #ffffff;
+  border-right: 2px solid #808080;
+  border-bottom: 2px solid #808080;
+  box-shadow: 1px 1px 0px #000000;
+}
+
+.carousel-btn:active {
+  border-top: 2px solid #808080;
+  border-left: 2px solid #808080;
+  border-right: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
+  box-shadow: none;
+  transform: translate(1px, 1px);
+}
+
+/* 頁數計數器小字 */
+.carousel-counter {
+  font-family: monospace;
+  font-size: 13px;
+  font-weight: bold;
+  color: #000000;
+  letter-spacing: 1px;
+}
+/* 活動入口與一頁式活動內容 */
+.carousel-item { display: block; flex: 0 0 100%; min-width: 0; }
+.carousel-item img { display: block; }
+.carousel-item:focus-visible { outline: 3px solid var(--win-blue); outline-offset: -4px; }
+.event-page { padding: 16px 12px; }
+.event-intro { margin-bottom: 24px; }
+.event-intro h1 { font-size: 1.65rem; color: var(--win-blue); margin-bottom: 14px; }
+.event-nav { display: flex; flex-wrap: wrap; gap: 8px; }
+.event-section { scroll-margin-top: 16px; margin-bottom: 32px; background: #fff; border: 1px solid #000; box-shadow: 2px 2px 0px #000; }
+/* .event-section:target { box-shadow: 3px 3px 0 var(--win-blue); } */
+.event-details { padding: 16px; }
+.event-details h2 { font-size: 1.3rem; margin-bottom: 8px; }
+.event-lead { color: var(--win-blue); font-weight: bold; }
+.event-banner { display: block; width: 100%; height: auto; margin: 12px 0; }
+.event-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 16px; margin-top: 20px; }
+.event-actions > a:last-child { color: var(--win-blue); font-size: .875rem; }
+.event-page a:focus-visible { outline: 2px solid var(--win-blue); outline-offset: 3px; }
+
+/* 作品分類：A 方案的經典 Win95 頁籤，僅套用作品頁。 */
+.gallery-tabs {
+  position: relative;
+  z-index: 1;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 3px;
+  margin: 12px 12px 0;
+  padding: 4px 2px 0;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.gallery-tabs::-webkit-scrollbar { display: none; }
+.gallery-tabs .tab-btn {
+  flex: 0 0 auto;
+  padding: 6px 10px;
+  margin-bottom: 2px;
+  background: var(--win-gray);
+  color: #000;
+  border: 2px solid;
+  border-color: #fff #808080 transparent #fff;
+  border-bottom: 0;
+  border-radius: 4px 4px 0 0;
+  box-shadow: inset -1px 0 #808080;
+  text-shadow: none;
+  font-size: .875rem;
+}
+.gallery-tabs .tab-btn.active {
+  padding-top: 9px;
+  padding-bottom: 8px;
+  margin-bottom: 0;
+  border-right-color: #000;
+  font-weight: bold;
+}
+.gallery-tabs .tab-btn:focus-visible { outline: 2px dotted #000; outline-offset: -5px; }
+.gallery-tab-panel {
+  position: relative;
+  margin: -2px 12px 12px;
+  border: 2px solid;
+  border-color: #fff #000 #000 #fff;
+  background: var(--win-gray);
+}
+.gallery-tabs-hint { margin: 0 12px; padding: 6px 10px; background: var(--win-gray); font-size: .75rem; color: #555; }
+/* 提示放在內容框內，保留頁籤與內容框相連的上緣。 */
+.gallery-tabs-hint:not([hidden]) { position: relative; z-index: 2; border-left: 2px solid #fff; border-right: 2px solid #000; border-top: 2px solid #fff; margin-top: -2px; }
+.gallery-tabs-hint:not([hidden]) + .gallery-tab-panel { border-top: 0; margin-top: 0; }

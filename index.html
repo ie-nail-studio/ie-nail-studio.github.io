@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png?v=292fd6f8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>𝒊𝒆 𝑵𝒂𝒊𝒍 𝑺𝒕𝒖𝒅𝒊𝒐 | 預約制私宅美甲工作室 ‧ 宜蘭</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&family=Zhi+Mang+Xing&family=Noto+Sans+TC:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="home">
+
+    <!-- 活動彈跳視窗 -->
+    <div class="win95-popup-overlay" id="promo-popup">
+        <div class="win95-popup">
+            <div class="popup-title-bar">
+                <span>SYSTEM_NOTICE.exe</span>
+                <button class="popup-close-btn" onclick="closePopupWithStorage()">×</button>
+            </div>
+            <div class="popup-body">
+                <div class="popup-icon">✨</div>
+                <div class="popup-text">
+                    <strong>【新客特惠通知】</strong>
+                    <p>首次預約即享 <span style="color: red;font-weight: bold;">9 折</span> 優惠！<br>結帳時將自動為您折抵專屬優惠。</p>
+                </div>
+            </div>
+            <div class="popup-footer">
+                <!-- 簡單俐落的「我知道了」按鈕 -->
+                <button class="win95-btn-action" onclick="closePopupWithStorage()">我知道了</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="win95-window">
+        <header class="">
+            <div class="win95-title-bar">
+                <a href="index.html" class="win95-title">
+                    <span class="win95-icon">💅</span> ie NAIL STUDIO.exe
+                </a>
+                <div class="win95-controls">
+                    <button class="win95-btn" aria-label="Minimize">_</button>
+                    <button class="win95-btn" aria-label="Maximize">⛶</button>
+                    <button class="win95-btn close-btn" aria-label="Close">X</button>
+                </div>
+            </div>
+            <nav class="nav-container">
+                <button class="menu-toggle" id="menu-toggle" aria-label="選單">
+                    <div class="hamburger-pixel"></div>
+                </button>
+                <div class="nav-links-wrapper" id="nav-links">
+                    <div class="win95-dropdown-header">
+                        <span>DIRECTORY</span>
+                        <!-- <button class="menu-close" id="menu-close">×</button> -->
+                    </div>
+                    <ul class="nav-links">
+                        <li><a href="index.html" class="nav-link active"><i class="fa-solid fa-house"></i> 首頁<span class="pixel-dot">.lnk</span></a></li>
+                        <li><a href="gallery.html" class="nav-link"><i class="fa-solid fa-images"></i> 款式風格<span class="pixel-dot">.jpg</span></a></li>
+                        <li><a href="prices.html" class="nav-link"><i class="fa-solid fa-file-invoice-dollar"></i> 價目表<span class="pixel-dot">.xlsx</span></a></li>
+                        <li><a href="about.html" class="nav-link"><i class="fa-solid fa-user"></i> 關於我<span class="pixel-dot">.txt</span></a></li>
+                        <li><a href="booking.html" class="nav-link"><i class="fa-solid fa-calendar-check"></i> 預約位置<span class="pixel-dot">.exe</span></a></li>
+                    </ul>
+                    <div class="win95-dropdown-footer">
+                        <span>STATUS: ONLINE</span>
+                    </div>
+                </div>
+            </nav>
+    
+        </header>
+    
+        <main class="content-wrapper page-content">
+            <div class="hero-window">
+                <div class="window-body text-center">
+                    <h1 class="hero-title">ie NAIL STUDIO</h1>
+                    <p class="hero-subtitle">⚡ 預約制私宅美甲工作室 ｜ 宜蘭 ⚡</p>
+                    <div class="carousel-container">
+                        <!-- 1. 圖片展示軌道 -->
+                        <div class="carousel-slide" id="carouselSlide">
+                          <a class="carousel-item" href="event.html#new-client" aria-label="查看新客 9 折優惠"><img src="img/event/banner1.png" alt="新客 9 折優惠"></a>
+                          <!-- <a class="carousel-item" href="event.html#monthly" aria-label="查看當月限定活動"><img src="img/event/banner2.png" alt="當月限定活動"></a> -->
+                          <a class="carousel-item" href="event.html#half-price" aria-label="查看單色貓眼半價"><img src="img/event/banner3.png" alt="單色貓眼半價"></a>
+                        </div>
+                      
+                        <!-- 2. Win95 風格底部控制列 (按鈕移至此處) -->
+                        <div class="carousel-controls">
+                          <button class="carousel-btn" id="prevBtn">❮ PREV</button>
+                          <span class="carousel-counter" id="carouselCounter">[ 1 / 3 ]</span>
+                          <button class="carousel-btn" id="nextBtn">NEXT ❯</button>
+                        </div>
+                    </div>
+                    <!-- <div class="hero-graphic">
+                        <div class="pixel-art-hand">💅✨💿👾</div>
+                    </div> -->
+                    <!-- <p class="hero-desc">
+                        復古電腦 95 風格與現代美學的碰撞。我們專注於極致的手部凝膠與創意甲片設計，為你量身打造專屬的指尖藝術。
+                    </p> -->
+                    <div class="hero-buttons">
+                        <a href="booking.html" class="win95-action-btn primary">
+                            <span>[ 立即進入預約 ]</span>
+                        </a>
+                        <a href="gallery.html" class="win95-action-btn secondary">
+                            <span>[ 瀏覽最新款式 ]</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    
+    
+    
+        </main>
+    </div>
+    
+
+
+    <a href="booking.html" class="sticky-cta win95-btn">
+        <span class="pulse-pixel"></span> 
+        <span>立即預約</span>
+    </a>
+
+    <footer class="win95-footer">
+        <div class="start-btn-wrapper">
+            <button class="win95-start-btn" onclick="toggleStartMenu()">
+                <span class="start-icon">💅</span> 開始
+            </button>
+            <div class="start-menu" id="start-menu">
+                <div class="start-sidebar">
+                    <div class="sidebar-text">ie NAIL STUDIO</div>
+                </div>
+                <div class="start-menu-list">
+                    <a href="index.html"><i class="fa-solid fa-house"></i> 首頁 (.lnk)</a>
+                    <a href="gallery.html"><i class="fa-solid fa-images"></i> 款式風格 (.jpg)</a>
+                    <a href="prices.html"><i class="fa-solid fa-file-invoice-dollar"></i> 價目表 (.xlsx)</a>
+                    <a href="about.html"><i class="fa-solid fa-user"></i> 關於我 (.txt)</a>
+                    <a href="booking.html"><i class="fa-solid fa-calendar-check"></i> 預約與位置 (.exe)</a>
+                    <hr class="win95-hr">
+                    <a href="https://www.instagram.com/ie_nail_studio/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i> 追蹤 Instagram</a>
+                    <a href="https://lin.ee/zoC58CvA" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-line"></i> LINE 快速客服</a>
+                </div>
+            </div>
+        </div>
+        <div class="taskbar-tabs">
+            <div class="taskbar-tab active">
+                <span>🏠 IE_HOME.exe</span>
+            </div>
+        </div>
+        <div class="sys-clock" id="sys-clock">
+            <i class="fa-solid fa-volume-high"></i>
+            <span id="clock-text">12:00 PM</span>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
